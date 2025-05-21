@@ -1,0 +1,36 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    color: #333;
+}
+
+.tool-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.tool-card:hover {
+    transform: scale(1.05);
+}
+
+.tool-link {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.tool-name {
+    font-size: 24px;
+    font-weight: bold;
+}
